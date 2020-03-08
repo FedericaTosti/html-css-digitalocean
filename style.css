@@ -1,0 +1,378 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sailec-Regular,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+  list-style-type: none;
+}
+
+/* header */
+/* nav */
+nav{
+  height: 50px;
+  background: white!important;
+}
+
+nav li{
+  display: inline-block;
+  float: left;
+  padding: 15px 10px;
+}
+
+nav img{
+  margin: 10px;
+}
+
+nav button{
+  background-color: white;
+  color: #006aff;
+  border: solid 1px #006aff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+nav li:hover{
+  color: #006aff;
+  cursor: pointer;
+}
+
+/* hamburger */
+nav .glyphicon{
+  color: #006aff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+
+/* main */
+/* sez jumbotron */
+.jumbo{
+  margin-top: 50px;
+  background-image:url(img/jumbotron.jpg);
+  height: auto;
+}
+
+.jumbo h1{
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  margin-top: 35px;
+}
+
+.jumbo p{
+  font-size: 20px;
+  color: white;
+}
+
+.account{
+  background-color: white;
+  padding: 20px;
+  margin: 40px 0 100px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.account h3{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.account span{
+  color: #006aff;
+}
+
+.account button{
+margin-bottom: 5px;
+font-size: 15px;
+}
+
+.account .btn-secondary{
+  background-image: url(img/google.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.account p{
+  color: #5b6987;
+  font-size: 13px;
+}
+
+.account a{
+text-decoration: underline;
+}
+
+/* sez customers */
+.customers{
+  text-align: center;
+  padding: 25px 0 35px;
+  vertical-align: middle;
+  background-color: #F3F5F9;
+}
+
+.customers h4{
+  color: #929DB4;
+  padding: 15px 0 30px;
+}
+
+.customers-img{
+  width: 90%;
+  padding: 20px 0;
+}
+
+.customers img{
+  width: 100%;
+}
+
+.customers a{
+  font-size: 15px;
+  padding: 15px 0;
+}
+
+.customers .glyphicon-chevron-right{
+  color: blue;
+}
+
+/* sez deploy */
+.deploy{
+  padding: 20px 0 40px;
+}
+
+.deploy h2{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0 15px;
+}
+
+.deploy .p-grande{
+  text-align: center;
+  color: #929DB4;
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+.deploy-lista ul{
+  border-left: solid 1px #E5E8ED;
+  padding-left: 12px;
+}
+
+.deploy-lista ul li{
+  font-size: 15px;
+  color: #929DB4;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.deploy-info h5{
+  font-size: 13px;
+  font-weight: bold;
+  color:#031B4E;
+}
+
+.deploy-info p{
+  color: #4E5F83;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+/* sez designed, sez development*/
+.designed, .development{
+  text-align: center;
+  background-color: #F3F5F9;
+  padding-bottom: 35px;
+}
+
+.designed h2, .development h2{
+  font-size: 40px;
+  padding: 20px 0 15px;
+}
+
+.designed .p-grande{
+  color: #929DB4;
+  font-size: 22px;
+  padding-bottom: 50px;
+}
+
+.designed img, .development img{
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+.designed .glyphicon, .development .glyphicon{
+  color: #031B4E;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.designed p{
+  color: #929DB4;
+  padding: 3px;
+}
+
+.designed .fa-circle, .development .fa-circle{
+  font-size: 12px;
+  color: #0069ff;
+  padding: 2px;
+  cursor: pointer;
+}
+
+/* sez features */
+.features{
+  padding-bottom: 60px;
+}
+
+.features h2{
+  text-align: center;
+  font-size: 40px;
+  padding: 20px 0 25px;
+}
+
+.features-info h5{
+  font-size: 13px;
+  font-weight: bold;
+  color:#031B4E;
+}
+
+.features-info p{
+  color: #4E5F83;
+  font-size: 14px;
+  padding-bottom: 7px;
+}
+
+.features-info span{
+  padding-bottom: 20px;
+}
+
+/* sez service */
+.service{
+  background-color: #2229C6;
+  padding: 30px 0 40px;
+  text-align: center;
+  color: white;
+}
+
+.service h2{
+  font-size: 35px;
+  padding: 0 0 25px;
+}
+
+.service table{
+  width: 100%;
+}
+
+.service table tr{
+  border-bottom: 1px solid white;
+}
+
+.service tr:last-child{
+  border-bottom: none;
+}
+
+.service table tr th{
+  font-size: 14px;
+}
+
+.service table tr td{
+  font-size: 14px;
+  color: #b6c5e3;
+  padding: 16px;
+}
+
+.service td:last-child{
+  color: #05aacc;
+}
+
+.service td:last-child:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.service table:last-child{
+  margin-bottom: 50px;
+}
+
+/* sez started */
+.started{
+  background-color: #2229C6;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+}
+
+.started button{
+  color: #2229C6;
+  padding: 7px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+/* footer */
+footer{
+  background-color: #010e28;
+  padding: 60px 0;
+  color: #838ca6;
+}
+
+footer p{
+  padding: 10px 0;
+}
+
+footer i{
+  padding-right: 3px;
+  font-size: 22px;
+}
+
+footer ul li{
+  padding-top: 5px;
+}
+
+footer h4{
+  color: white;
+}
+
+footer img:hover{
+  cursor: pointer;
+}
+
+footer i:hover,footer ul li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+
+/* media queries */
+/* xs sm */
+@media screen and (max-width:991px){
+
+.designed .glyphicon{
+  display: none;
+}
+
+.development .glyphicon{
+  display: none;
+}
+
+}
+
+
+/* xs sm md */
+@media screen and (max-width:1199px){
+
+nav ul li{
+  display: none;
+}
+
+nav button{
+  display: none;
+}
+
+}
+
+/* lg */
+@media screen and (min-width:1200px){
+
+nav .glyphicon{
+  display: none;
+}
+
+}
